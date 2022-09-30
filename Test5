@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Test5 {
+    public static void main(String[] args) {
+		int num1;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("input first integer:");
+		num1 = input.nextInt();
+		
+		if (num1 >=60) {
+			if (num1 >=70){
+				System.out.println("Excelent!");
+			}
+			else{
+				System.out.println("真的假的!!");
+			}
+		}
+		else {
+			System.out.println("不及格!");		
+		}
+		
+		
+	}
+}
