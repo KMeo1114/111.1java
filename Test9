@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Test9 {
+    public static void main(String[] args) {
+		int num1 = 0;
+		String str1 = "";
+		
+		while (num1 <10) {    
+			System.out.printf("%s%d %n",str1,num1);
+			str1 += " ";
+			num1 +=1;					
+		}
+		
+		/**
+		for(int i=1;i<=10;i++){
+			System.out.printf("%d %n",num1);
+			for(int j=1;j<=i;j++){
+				System.out.print(" ");
+			}
+			num1 +=1;
+        }
+		
+		*/
+		  
+    }
+}
