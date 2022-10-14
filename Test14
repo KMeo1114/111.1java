@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Test14 {
+    public static void main(String[] args) {
+		int row = 0;
+		int t;
+		
+		while (row <11) {   
+		    t = row;
+			if (row >=6){
+				t = 10-row;
+			}
+			
+			int num1 =1;
+			while (num1 <=5-t){
+				System.out.print(" ");
+				num1 +=1;
+								
+			}
+			int num2 =1;
+			while(num2 <=2*t-1){
+				System.out.print("*");
+				num2 +=1;
+			}
+		    System.out.println("");
+						
+			row +=1;
+			
+		}
+		
+    }
+}
