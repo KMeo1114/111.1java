@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Test12 {
+    public static void main(String[] args) {
+		int num1 =0;
+		int num2 =0;
+		String str1 = "";
+					
+		while (num1<5){
+			str1 += "*";
+			System.out.println(str1);
+					
+			num1 +=1;							
+		}
+		
+		while (num1>num2){
+			str1 = str1.substring(0, str1.length()-1);;
+			System.out.println(str1);
+					
+			num1 -=1;
+			
+			
+		}
+	}
+		
+}
