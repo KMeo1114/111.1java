@@ -7,7 +7,7 @@ public class Test10 {
 		
 		while (num1 <5) {   
 		    str1 += "*";		
-			System.out.printf("%s %n",str1);
+			System.out.println(str1);
 			
 			num1 +=1;					
 		}
