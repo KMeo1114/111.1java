@@ -1,0 +1,20 @@
+public class le2 {
+    public static void main(String[] args){
+        int b = 4;
+        for (int i = -4; i <=4 ;i++){
+            for (int j = -5;j<=5;j++){
+                int a= Math.abs(j);
+                if (i<a-b){
+                    System.out.print("*");
+                }
+                else{                    
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+            if (i >=0){
+                b -=2;
+            }
+        }
+    }
+}
