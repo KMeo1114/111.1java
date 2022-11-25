@@ -1,0 +1,16 @@
+public class le3 {
+    public static void main(String[] args){
+        for (int i = -4; i <=4 ;i++){
+            for (int j = -5;j<=5;j++){ 
+                if (Math.abs(j) + Math.abs(i)>4){
+                    System.out.print("*");
+                }
+                else{                    
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+            
+        }
+    }
+}
